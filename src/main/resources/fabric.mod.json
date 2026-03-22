@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "podzolfarmer",
+  "version": "3.0.0",
+  "name": "Podzol Farmer",
+  "description": "Client-side mod that automates spruce farming on podzol using real player interactions.",
+  "authors": [
+    "You"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.podzolfarmer.PodzolFarmerMod"
+    ],
+    "client": [
+      "com.podzolfarmer.client.PodzolFarmerClient"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}
